@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude shared preferences and secure caches containing auth tokens -->
+        <exclude domain="sharedpref" path="spotify_auth.xml" />
+        <exclude domain="root" path="credentials" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="spotify_auth.xml" />
+        <exclude domain="root" path="credentials" />
+    </device-transfer>
+</data-extraction-rules>

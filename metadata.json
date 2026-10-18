@@ -1,0 +1,6 @@
+{
+  "name": "Galaxy Music",
+  "description": "Cliente Spotify com design nativo One UI 9 da Samsung, Now Bar fluida, integração com ecossistema Galaxy e otimização de bateria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
